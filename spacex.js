@@ -3,10 +3,10 @@ fetch('https://api.spacexdata.com/v3/capsules')
     return response.json();
 })
 .then(spaceXData => { //this ia where you would name the data
-    console.log(spaceXData);
+    //console.log(spaceXData);
 })
 .catch(error => {
-    console.log(error);
+    //console.log(error);
 })
 
 fetch('https://api.spacexdata.com/v3/dragons/dragon1')
@@ -14,10 +14,10 @@ fetch('https://api.spacexdata.com/v3/dragons/dragon1')
     return response.json();
 })
 .then (spaceXDragonData => { //this ia where you would name the data
-    console.log(spaceXDragonData);
+    //console.log(spaceXDragonData);
 })
 .catch(error => {
-    console.log(error);
+    //console.log(error);
 })
 
 fetch('https://api.spacexdata.com/v3/landpads/LZ-4')
@@ -25,10 +25,10 @@ fetch('https://api.spacexdata.com/v3/landpads/LZ-4')
     return response.json();
 })
 .then (data => { //this ia where you would name the data
-    console.log(data);
+    //console.log(data);
 })
 .catch(error => {
-    console.log(error);
+    //console.log(error);
 })
 
 fetch('https://api.spacexdata.com/v3/history/1')
@@ -36,8 +36,8 @@ fetch('https://api.spacexdata.com/v3/history/1')
     return response.json();
 })
 .then (missionData => { //this ia where you would name the data
-    console.log(missionData);
+    //console.log(missionData);
 })
 .catch(errors => {
-    console.log(errors);
+    //console.log(errors);
 })
